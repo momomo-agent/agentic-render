@@ -1,0 +1,16 @@
+{
+  "name": "agentic-render",
+  "version": "0.1.0",
+  "description": "Streaming markdown renderer for AI — zero deps, one script tag, beautiful defaults",
+  "main": "render.js",
+  "files": ["render.js", "render.min.js", "README.md"],
+  "scripts": {
+    "minify": "npx terser render.js -c -m -o render.min.js"
+  },
+  "keywords": ["markdown", "renderer", "streaming", "ai", "llm", "zero-dependency", "vanilla-js"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momomo-agent/agentic-render.git"
+  }
+}
