@@ -21,14 +21,14 @@ npm install agentic-render
 Or just drop the script tag:
 
 ```html
-<script src="https://unpkg.com/agentic-render/render.js"></script>
+<script src="https://unpkg.com/agentic-render/agentic-render.js"></script>
 ```
 
 ## Quick Start
 
 ```html
 <div id="output"></div>
-<script src="https://unpkg.com/agentic-render/render.js"></script>
+<script src="https://unpkg.com/agentic-render/agentic-render.js"></script>
 <script>
   const r = AgenticRender.create('#output', { theme: 'dark' })
 

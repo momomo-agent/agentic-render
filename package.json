@@ -2,10 +2,10 @@
   "name": "agentic-render",
   "version": "0.1.0",
   "description": "Streaming markdown renderer for AI — zero deps, one script tag, beautiful defaults",
-  "main": "render.js",
-  "files": ["render.js", "render.min.js", "README.md"],
+  "main": "agentic-render.js",
+  "files": ["agentic-render.js", "agentic-render.min.js", "README.md"],
   "scripts": {
-    "minify": "npx terser render.js -c -m -o render.min.js"
+    "minify": "npx terser agentic-render.js -c -m -o agentic-render.min.js"
   },
   "keywords": ["markdown", "renderer", "streaming", "ai", "llm", "zero-dependency", "vanilla-js"],
   "license": "MIT",
